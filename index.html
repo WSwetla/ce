@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>codejam-eldritch</title>
+   <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+   <div class="container">
+      <img src="./assets/home.png" alt="background">
+      <div class="cards">
+         <div class="azathoth" id="azathoth">
+            <img class="ansientAzathoth" src="./assets/Ancients/azathoth.png" alt="Azathoth">
+         </div>
+         <div class="cthulthu" id="cthulhu">
+            <img class="ansientCthulthu active" src="./assets/Ancients/cthulthu.png" alt="Cthulthu">
+         </div>
+         <div class="iogSothoth" id="iogSothoth">
+            <img class="ansientIogSothoth" src="./assets/Ancients/iogSothoth.png" alt="IogSothoth">
+         </div>
+         <div class="shubNiggurath" id="shubNiggurath">
+            <img class="ansientShubNiggurath" src="./assets/Ancients/shubNiggurath.png" alt="ShubNiggurath">
+         </div>
+      </div>
+      <div class="buttonContainer">
+         <div class="buttons">
+            <button class="btn1 change" id="level-1">Очень легкий</button>
+            <button class="btn2 change" id="level-2">Легкий уровень</button>
+            <button class="btn3 change" id="level-3">Средний уровень</button>
+            <button class="btn4 change" id="level-4">Высокий уровень</button>
+            <button class="btn5 change" id="level-5">Очень высокий</button>
+         </div>
+         <div class="buttonStart">
+            <button>Замешать колоду</button>
+         </div>
+      </div>
+      <div class="treckerContainer">
+         <div class="first">
+            <h2>Первая стадия</h2>
+            <div class="circles" id="circles">
+               <div class="circleGreen green1">
+                  <span>0</span>
+               </div>
+               <div class="circleBrown brown1">
+                  <span>0</span>
+               </div>
+               <div class="circleBlue blue1">
+                  <span>0</span>
+               </div>
+            </div>
+         </div>
+         <div class="second">
+            <h2>Вторая стадия</h2>
+            <div class="circles">
+               <div class="circleGreen green2">
+                  <span>0</span>
+               </div>
+               <div class="circleBrown brown2">
+                  <span>0</span>
+               </div>
+               <div class="circleBlue blue2">
+                  <span>0</span>
+               </div>
+            </div>
+         </div>
+         <div class="third">
+            <h2>Третья стадия</h2>
+            <div class="circles">
+               <div class="circleGreen green3">
+                  <span>0</span>
+               </div>
+               <div class="circleBrown brown3">
+                  <span>0</span>
+               </div>
+               <div class="circleBlue blue3">
+                  <span>0</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="cardsContainer">
+         <div class="cardBack">
+            <img src="./assets/mythicCardBackground.png" alt="CardBackground">
+         </div>
+         <div class="cardFront">
+            <img src="./assets/MythicCards/blue/blue1.png" alt="CardFront">
+         </div>
+      </div>
+   </div>
+   <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+.azathoth img,
+.cthulthu img,
+.iogSothoth img,
+.shubNiggurath img {
+   width: 200px;
+   margin-left: 111px;
+   cursor: pointer;
+   border-radius: 10px;
+}
+
+/* .ansientAzathoth-active,
+.cthulthu img.active,
+.iogSothoth img.active,
+.shubNiggurath img.active,
+.cardsContainer img.active {
+   border: solid 1px rgb(42, 20, 241);
+   box-shadow:  12px 12px 2px 1px rgba(0, 0, 255, .2);
+} */
+
+.active {
+   border: solid 1px rgb(42, 20, 241);
+   box-shadow:  12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.cards {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-around;
+   margin-top: 20px;
+   position: absolute;
+}
+
+.container {
+   position: relative;
+   display: flex;
+   top: 0;
+   left: 0;
+   max-width: 1440px;
+   margin: 0 auto;
+   height: 940px;
+}
+
+.container img {
+   
+   max-width: 1440px;
+   background-size: cover;
+}
+
+.buttonContainer {
+   display: flex;
+   flex-wrap: nowrap;
+   flex-direction: column;
+   position: absolute;
+   margin-top: 370px;
+   justify-content: space-between;
+   height: 500px;
+   width: 400px;
+}
+
+button {
+   height: 33px;
+   width: 300px;
+   background-color: aliceblue;
+   margin-left: 50px;
+   opacity: .5;
+   border: solid 2px green;
+   border-radius: 5px;
+   cursor: pointer;
+   /* display: block; */
+   color: black;
+   font-size: 16px;
+   display: inline;
+}
+
+button:active {
+   border: solid 4px rgb(221, 66, 66);
+}
+
+button:hover {
+   background-color: rgb(122, 188, 241);
+   border: solid 4px rgb(28, 94, 28);
+}
+
+.buttons {
+   justify-content: space-between;
+   min-height: 270px;
+   width: 400px;
+   display: inline-flex;
+   flex-wrap: wrap;
+}
+
+.buttonStart {
+   margin-bottom: -5px;
+}
+
+.buttonStart button {
+   background-color: rgb(231, 8, 164);
+   height: 50px;
+   border-radius: 10px;
+}
+
+.buttonStart button:active {
+   background-color: rgb(231, 8, 75);
+   height: 65px;
+   border: solid 2px rgb(32, 207, 199);
+}
+
+.treckerContainer {
+   margin-left: -280px;
+   width: 200px;
+   margin-top: 370px;
+   flex-direction: column;
+   display: flex;
+   color: aliceblue;
+}
+
+.circleGreen {
+   background-color: greenyellow;
+}
+
+.circleBrown {
+   background-color: rgb(155, 70, 70);
+}
+
+.circleBlue {
+   background-color: rgb(55, 149, 204);
+}
+
+span {
+   font-size: 24px;
+   text-align: center;
+   margin: 13px 14px;
+}
+
+.circleGreen,
+.circleBrown,
+.circleBlue {
+   border-radius: 50%;
+   height: 40px;
+   width: 40px;
+   border: solid 2px wheat;
+   cursor: pointer;
+}
+
+.circleGreen:active,
+.circleBrown:active,
+.circleBlue:active {
+   border: solid 2px rgb(233, 44, 192);
+}
+
+.first,
+.second,
+.third {
+   display: flex;
+   flex-direction: column;
+}
+
+.circles {
+   display: flex;
+   justify-content: space-around;
+}
+
+h2 {
+   margin: 10px 17px;
+}
+
+.cardsContainer {
+   display: flex;
+   margin-top: 565px;
+   margin-left: -820px;
+   justify-content: space-between;
+}
+
+.cardsContainer img {
+   width: 180px;
+   border-radius: 10px;
+   margin-left: 30px;
+   cursor: pointer;
+}
+
+.none {
+   display: none;
+}
